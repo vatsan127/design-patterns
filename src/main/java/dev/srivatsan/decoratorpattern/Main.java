@@ -1,8 +1,5 @@
 package dev.srivatsan.decoratorpattern;
 
-import dev.srivatsan.decoratorpattern.decorators.Milk;
-import dev.srivatsan.decoratorpattern.decorators.Sugar;
-
 public class Main {
     public static void main(String[] args) {
         Coffee coffee = new SimpleCoffee();
