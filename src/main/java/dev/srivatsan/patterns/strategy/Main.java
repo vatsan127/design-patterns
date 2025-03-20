@@ -1,9 +1,4 @@
-package dev.srivatsan.strategypattern;
-
-import dev.srivatsan.strategypattern.client.ShoppingCart;
-import dev.srivatsan.strategypattern.concrete.BitcoinPayment;
-import dev.srivatsan.strategypattern.concrete.CreditCardPayment;
-import dev.srivatsan.strategypattern.concrete.PayPalPayment;
+package dev.srivatsan.patterns.strategy;
 
 public class Main {
     public static void main(String[] args) {

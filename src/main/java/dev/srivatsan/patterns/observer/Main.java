@@ -1,8 +1,4 @@
-package dev.srivatsan.observerpattern;
-
-import dev.srivatsan.observerpattern.observable.YouTubeChannel;
-import dev.srivatsan.observerpattern.observer.Observer;
-import dev.srivatsan.observerpattern.observer.Subscriber;
+package dev.srivatsan.patterns.observer;
 
 public class Main {
     public static void main(String[] args) {

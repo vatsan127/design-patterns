@@ -1,6 +1,4 @@
-package dev.srivatsan.strategypattern.client;
-
-import dev.srivatsan.strategypattern.strategy.PaymentStrategy;
+package dev.srivatsan.patterns.strategy;
 
 public class ShoppingCart {
     private PaymentStrategy paymentStrategy;

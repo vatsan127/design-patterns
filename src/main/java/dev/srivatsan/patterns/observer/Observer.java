@@ -1,6 +1,11 @@
-package dev.srivatsan.observerpattern.observer;
+package dev.srivatsan.patterns.observer;
 
-public class Subscriber implements Observer {
+// Observer Interface
+public interface Observer {
+    void update(String message);  // Method to receive updates
+}
+
+class Subscriber implements Observer {
 
     private final String name;
 

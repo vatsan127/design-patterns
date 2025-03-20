@@ -1,11 +1,18 @@
-package dev.srivatsan.observerpattern.observable;
-
-import dev.srivatsan.observerpattern.observer.Observer;
+package dev.srivatsan.patterns.observer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class YouTubeChannel implements Subject {
+// Observable Interface
+public interface observable {
+    void subscribe(Observer observer);
+
+    void unsubscribe(Observer observer);
+
+    void notifyObservers(String message);
+}
+
+class YouTubeChannel implements observable {
 
     private final List<Observer> subscribers = new ArrayList<>();
 

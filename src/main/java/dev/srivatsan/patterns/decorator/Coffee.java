@@ -1,4 +1,4 @@
-package dev.srivatsan.decoratorpattern;
+package dev.srivatsan.patterns.decorator;
 
 // Base interface for all coffee types
 public interface Coffee {

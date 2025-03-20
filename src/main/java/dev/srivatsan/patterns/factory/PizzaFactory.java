@@ -1,4 +1,4 @@
-package dev.srivatsan.factorypattern;
+package dev.srivatsan.patterns.factory;
 
 public interface PizzaFactory {
     Pizza createPizza();

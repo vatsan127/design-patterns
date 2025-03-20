@@ -1,4 +1,4 @@
-package dev.srivatsan.decoratorpattern;
+package dev.srivatsan.patterns.decorator;
 
 abstract class CoffeeDecorator implements Coffee { // Abstract decorator class (wraps Coffee object)
     protected Coffee decoratedCoffee;  // Composition
